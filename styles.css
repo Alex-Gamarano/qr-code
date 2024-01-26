@@ -2,12 +2,14 @@ html {
   font-size: 62.5%;
 }
 body {
+  height: 100vh;
+  width: 100vw;
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -15,8 +17,6 @@ main {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 25px;
   display: flex;
   flex-direction: column;
-  align-self: center;
-  justify-self: center;
   align-items: center;
   text-align: center;
   padding-top: 17.5px;
@@ -50,6 +50,7 @@ h2 {
 .attribution {
   font-size: 1.1rem;
   text-align: center;
+  margin-top: 100px;
 }
 .attribution a {
   color: var(--color-link);
